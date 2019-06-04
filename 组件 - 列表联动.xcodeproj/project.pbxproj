@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0BD65836FC75CF240300C08 /* libPods-组件 - 列表联动.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFFE7F2E2B1BA7AAE1C5DCF /* libPods-组件 - 列表联动.a */; };
 		FC6A89C7225398B70035F42B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89C6225398B70035F42B /* AppDelegate.m */; };
 		FC6A89CA225398B70035F42B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89C9225398B70035F42B /* ViewController.m */; };
 		FC6A89CD225398B70035F42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6A89CB225398B70035F42B /* Main.storyboard */; };
@@ -14,20 +15,57 @@
 		FC6A89D2225398BB0035F42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6A89D1225398BB0035F42B /* Assets.xcassets */; };
 		FC6A89D5225398BB0035F42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6A89D3225398BB0035F42B /* LaunchScreen.storyboard */; };
 		FC6A89D8225398BB0035F42B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89D7225398BB0035F42B /* main.m */; };
+		FC6A89E0225399220035F42B /* GoodsClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89DF225399220035F42B /* GoodsClassViewController.m */; };
+		FC6A89F12253994C0035F42B /* GoodsClassHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89E22253994A0035F42B /* GoodsClassHeaderView.m */; };
+		FC6A89F22253994C0035F42B /* liwushuo.json in Resources */ = {isa = PBXBuildFile; fileRef = FC6A89E32253994A0035F42B /* liwushuo.json */; };
+		FC6A89F32253994C0035F42B /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89E42253994A0035F42B /* NSObject+Property.m */; };
+		FC6A89F42253994C0035F42B /* GoodsClassCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89E62253994A0035F42B /* GoodsClassCollectionViewCell.m */; };
+		FC6A89F52253994C0035F42B /* meituan.json in Resources */ = {isa = PBXBuildFile; fileRef = FC6A89E72253994B0035F42B /* meituan.json */; };
+		FC6A89F62253994C0035F42B /* GoodsClassCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89EA2253994B0035F42B /* GoodsClassCollectionViewLayoutAttributes.m */; };
+		FC6A89F72253994C0035F42B /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89EB2253994B0035F42B /* LeftTableViewCell.m */; };
+		FC6A89F82253994C0035F42B /* GoodsClassCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89EC2253994B0035F42B /* GoodsClassCollectionViewFlowLayout.m */; };
+		FC6A89F92253994C0035F42B /* UIViewController+Dealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89EF2253994B0035F42B /* UIViewController+Dealloc.m */; };
+		FC6A89FC225399790035F42B /* GoodsShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89FB225399780035F42B /* GoodsShopModel.m */; };
+		FC6A89FF22539B030035F42B /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6A89FE22539B030035F42B /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EFFE7F2E2B1BA7AAE1C5DCF /* libPods-组件 - 列表联动.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-组件 - 列表联动.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B01CB644E4CDD2552643B9 /* Pods-组件 - 列表联动.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-组件 - 列表联动.debug.xcconfig"; path = "Pods/Target Support Files/Pods-组件 - 列表联动/Pods-组件 - 列表联动.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0812DB23DC1307E0A41521 /* Pods-组件 - 列表联动.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-组件 - 列表联动.release.xcconfig"; path = "Pods/Target Support Files/Pods-组件 - 列表联动/Pods-组件 - 列表联动.release.xcconfig"; sourceTree = "<group>"; };
 		FC6A89C2225398B70035F42B /* 组件 - 列表联动.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "组件 - 列表联动.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC6A89C5225398B70035F42B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC6A89C6225398B70035F42B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC6A89C8225398B70035F42B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FC6A89C9225398B70035F42B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FC6A89CC225398B70035F42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC6A89CF225398B70035F42B /* _________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_________.xcdatamodel"; sourceTree = "<group>"; };
+		FC6A89CF225398B70035F42B /* _________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _________.xcdatamodel; sourceTree = "<group>"; };
 		FC6A89D1225398BB0035F42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC6A89D4225398BB0035F42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC6A89D6225398BB0035F42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6A89D7225398BB0035F42B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6A89DE225399220035F42B /* GoodsClassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsClassViewController.h; sourceTree = "<group>"; };
+		FC6A89DF225399220035F42B /* GoodsClassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsClassViewController.m; sourceTree = "<group>"; };
+		FC6A89E12253994A0035F42B /* UIViewController+Dealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dealloc.h"; sourceTree = "<group>"; };
+		FC6A89E22253994A0035F42B /* GoodsClassHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsClassHeaderView.m; sourceTree = "<group>"; };
+		FC6A89E32253994A0035F42B /* liwushuo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = liwushuo.json; sourceTree = "<group>"; };
+		FC6A89E42253994A0035F42B /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		FC6A89E52253994A0035F42B /* GoodsClassCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsClassCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		FC6A89E62253994A0035F42B /* GoodsClassCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsClassCollectionViewCell.m; sourceTree = "<group>"; };
+		FC6A89E72253994B0035F42B /* meituan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meituan.json; sourceTree = "<group>"; };
+		FC6A89E82253994B0035F42B /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		FC6A89E92253994B0035F42B /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		FC6A89EA2253994B0035F42B /* GoodsClassCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsClassCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		FC6A89EB2253994B0035F42B /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+		FC6A89EC2253994B0035F42B /* GoodsClassCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsClassCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		FC6A89ED2253994B0035F42B /* GoodsClassCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsClassCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		FC6A89EE2253994B0035F42B /* GoodsClassCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsClassCollectionViewCell.h; sourceTree = "<group>"; };
+		FC6A89EF2253994B0035F42B /* UIViewController+Dealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dealloc.m"; sourceTree = "<group>"; };
+		FC6A89F02253994B0035F42B /* GoodsClassHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsClassHeaderView.h; sourceTree = "<group>"; };
+		FC6A89FA225399780035F42B /* GoodsShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsShopModel.h; sourceTree = "<group>"; };
+		FC6A89FB225399780035F42B /* GoodsShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsShopModel.m; sourceTree = "<group>"; };
+		FC6A89FD22539B030035F42B /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		FC6A89FE22539B030035F42B /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BD65836FC75CF240300C08 /* libPods-组件 - 列表联动.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3A60BB87AAD73A6E25CC6BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75B01CB644E4CDD2552643B9 /* Pods-组件 - 列表联动.debug.xcconfig */,
+				AA0812DB23DC1307E0A41521 /* Pods-组件 - 列表联动.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD1C81626B6070AD9FF0FAF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFE7F2E2B1BA7AAE1C5DCF /* libPods-组件 - 列表联动.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC6A89B9225398B70035F42B = {
 			isa = PBXGroup;
 			children = (
 				FC6A89C4225398B70035F42B /* 组件 - 列表联动 */,
 				FC6A89C3225398B70035F42B /* Products */,
+				A3A60BB87AAD73A6E25CC6BA /* Pods */,
+				CD1C81626B6070AD9FF0FAF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +122,28 @@
 				FC6A89C6225398B70035F42B /* AppDelegate.m */,
 				FC6A89C8225398B70035F42B /* ViewController.h */,
 				FC6A89C9225398B70035F42B /* ViewController.m */,
+				FC6A89DE225399220035F42B /* GoodsClassViewController.h */,
+				FC6A89DF225399220035F42B /* GoodsClassViewController.m */,
+				FC6A89FA225399780035F42B /* GoodsShopModel.h */,
+				FC6A89FB225399780035F42B /* GoodsShopModel.m */,
+				FC6A89EE2253994B0035F42B /* GoodsClassCollectionViewCell.h */,
+				FC6A89E62253994A0035F42B /* GoodsClassCollectionViewCell.m */,
+				FC6A89E52253994A0035F42B /* GoodsClassCollectionViewFlowLayout.h */,
+				FC6A89EC2253994B0035F42B /* GoodsClassCollectionViewFlowLayout.m */,
+				FC6A89ED2253994B0035F42B /* GoodsClassCollectionViewLayoutAttributes.h */,
+				FC6A89EA2253994B0035F42B /* GoodsClassCollectionViewLayoutAttributes.m */,
+				FC6A89F02253994B0035F42B /* GoodsClassHeaderView.h */,
+				FC6A89E22253994A0035F42B /* GoodsClassHeaderView.m */,
+				FC6A89E92253994B0035F42B /* LeftTableViewCell.h */,
+				FC6A89EB2253994B0035F42B /* LeftTableViewCell.m */,
+				FC6A89E32253994A0035F42B /* liwushuo.json */,
+				FC6A89E72253994B0035F42B /* meituan.json */,
+				FC6A89FD22539B030035F42B /* UIView+Layout.h */,
+				FC6A89FE22539B030035F42B /* UIView+Layout.m */,
+				FC6A89E82253994B0035F42B /* NSObject+Property.h */,
+				FC6A89E42253994A0035F42B /* NSObject+Property.m */,
+				FC6A89E12253994A0035F42B /* UIViewController+Dealloc.h */,
+				FC6A89EF2253994B0035F42B /* UIViewController+Dealloc.m */,
 				FC6A89CB225398B70035F42B /* Main.storyboard */,
 				FC6A89D1225398BB0035F42B /* Assets.xcassets */,
 				FC6A89D3225398BB0035F42B /* LaunchScreen.storyboard */,
@@ -81,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC6A89DB225398BB0035F42B /* Build configuration list for PBXNativeTarget "组件 - 列表联动" */;
 			buildPhases = (
+				47FA454CBFAEE7B00EFBAA4F /* [CP] Check Pods Manifest.lock */,
 				FC6A89BE225398B70035F42B /* Sources */,
 				FC6A89BF225398B70035F42B /* Frameworks */,
 				FC6A89C0225398B70035F42B /* Resources */,
@@ -132,20 +213,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC6A89D5225398BB0035F42B /* LaunchScreen.storyboard in Resources */,
+				FC6A89F22253994C0035F42B /* liwushuo.json in Resources */,
 				FC6A89D2225398BB0035F42B /* Assets.xcassets in Resources */,
 				FC6A89CD225398B70035F42B /* Main.storyboard in Resources */,
+				FC6A89F52253994C0035F42B /* meituan.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FA454CBFAEE7B00EFBAA4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-组件 - 列表联动-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC6A89BE225398B70035F42B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC6A89E0225399220035F42B /* GoodsClassViewController.m in Sources */,
+				FC6A89F92253994C0035F42B /* UIViewController+Dealloc.m in Sources */,
+				FC6A89F12253994C0035F42B /* GoodsClassHeaderView.m in Sources */,
+				FC6A89FC225399790035F42B /* GoodsShopModel.m in Sources */,
+				FC6A89FF22539B030035F42B /* UIView+Layout.m in Sources */,
+				FC6A89F82253994C0035F42B /* GoodsClassCollectionViewFlowLayout.m in Sources */,
+				FC6A89F72253994C0035F42B /* LeftTableViewCell.m in Sources */,
+				FC6A89F42253994C0035F42B /* GoodsClassCollectionViewCell.m in Sources */,
+				FC6A89F32253994C0035F42B /* NSObject+Property.m in Sources */,
 				FC6A89D0225398B70035F42B /* _________.xcdatamodeld in Sources */,
 				FC6A89CA225398B70035F42B /* ViewController.m in Sources */,
+				FC6A89F62253994C0035F42B /* GoodsClassCollectionViewLayoutAttributes.m in Sources */,
 				FC6A89D8225398BB0035F42B /* main.m in Sources */,
 				FC6A89C7225398B70035F42B /* AppDelegate.m in Sources */,
 			);
@@ -287,10 +405,13 @@
 		};
 		FC6A89DC225398BB0035F42B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B01CB644E4CDD2552643B9 /* Pods-组件 - 列表联动.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9TUUSC9F7;
 				INFOPLIST_FILE = "组件 - 列表联动/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,10 +424,13 @@
 		};
 		FC6A89DD225398BB0035F42B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0812DB23DC1307E0A41521 /* Pods-组件 - 列表联动.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B9TUUSC9F7;
 				INFOPLIST_FILE = "组件 - 列表联动/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,7 +471,7 @@
 				FC6A89CF225398B70035F42B /* _________.xcdatamodel */,
 			);
 			currentVersion = FC6A89CF225398B70035F42B /* _________.xcdatamodel */;
-			path = "_________.xcdatamodeld";
+			path = _________.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
